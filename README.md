@@ -9,11 +9,13 @@ Aqui estaran todos los endpoints necesarios para el funcionamiento del programa
 . /copias Muestra las copias que tienen los libros
 . /lectores Muestra todos los lectores creados
 . /prestamos Muestra los prestamos (No alcanzo el tiempo para la implementacion)
+
 ### Agregados
-. /agregarLibro/:nombre/:tipo/:editorial/:anio agrega un libro y pide de parametro su nombre, el tipo/genero, la editorial y el año
-. /agregarAutor/:nombre/:nacionalidad/:fechaNacimiento Agrega un autor
-. /agregarLector/:nombre/:nacionalidad/:fechaNacimiento Agrega un lector
+#### /agregarLibro/:nombre/:tipo/:editorial/:anio agrega un libro y pide de parametro su nombre, el tipo/genero, la editorial y el año
+#### /agregarAutor/:nombre/:nacionalidad/:fechaNacimiento Agrega un autor
+#### /agregarLector/:nombre/:nacionalidad/:fechaNacimiento Agrega un lector
+
 ### Interacción
-. /guardarDatos Se usa para guardar los datos en un archivo de texto, usando la serializacion (pertinencia)
-. /prestarLibro/:idLibro/:identificadorLector Sirve para prestar un libro
-. //devolverLibro/:idLibro/:identificadorLector Sirve para devolver un libro
+#### . /guardarDatos Se usa para guardar los datos en un archivo de texto, usando la serializacion (pertinencia)
+#### . /prestarLibro/:idLibro/:identificadorLector Sirve para prestar un libro
+#### . //devolverLibro/:idLibro/:identificadorLector Sirve para devolver un libro
